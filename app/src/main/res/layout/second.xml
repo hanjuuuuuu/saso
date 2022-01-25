@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/falsebtn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/stroke2"
+                android:scaleType="centerInside"
+                android:src="@drawable/false1" />
+
+            <ImageButton
+                android:id="@+id/truebtn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/stroke2"
+                android:scaleType="centerInside"
+                android:src="@drawable/true1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/class_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/stroke2"
+                android:src="@drawable/buttonclass"
+                android:scaleType="centerInside"/>
+
+            <ImageButton
+                android:id="@+id/club_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/stroke2"
+                android:src="@drawable/buttonclub"
+                android:scaleType="centerInside"/>
+
+            <ImageButton
+                android:id="@+id/day_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/stroke2"
+                android:src="@drawable/buttonday"
+                android:scaleType="centerInside"/>
+
+            <ImageButton
+                android:id="@+id/contest_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/stroke2"
+                android:src="@drawable/buttoncontest"
+                android:scaleType="centerInside"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/selectedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="선택된 날짜" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".ClassFragment" >
+
+
+            <EditText
+                android:id="@+id/club_name"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/stroke_rect"
+                android:hint="이름" />
+
+
+            <EditText
+                android:id="@+id/contents"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:hint="내용"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/stroke_rect"/>
+
+            <EditText
+                android:id="@+id/thoughts"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:hint="느낀 점"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/stroke_rect"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
